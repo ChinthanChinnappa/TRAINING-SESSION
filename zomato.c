@@ -1,12 +1,9 @@
 #include <stdio.h>
-
 int main(){
     int status;
-
     while(1){
         printf("Enter order status (1-4): \n");
         scanf("%d",&status);
-
         switch(status)
         {
         case 1:

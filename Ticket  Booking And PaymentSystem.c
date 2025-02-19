@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 char name[],contact[],date[],bus_type[]; 
-int *age;
+int age;
 float price;
 void book_ticket()
 {

@@ -68,7 +68,7 @@ int main() {
     int age;
     float price;
 
-    book_ticket(name, &age, contact, date, bus_type, &price);
+    book_ticket(name, age, contact, date, bus_type, price);
     make_payment(price);
     cancel_ticket(price);
 

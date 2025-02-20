@@ -72,6 +72,6 @@ int main()
             cost = quant* 180;
     }
 
-    printf("Total cost: rs %d\n\n", cost);
+    printf("Total cost: rs %0.2f\n\n", cost);
 	return 0;
 }
